@@ -10,9 +10,10 @@
 ![Alt text](/assets/modeling.png "Modeling")
 
 ## Running on Local Machine
-1. Run api.py
+1. Download this repository
+2. Run api.py
     <br /> &emsp; $ python /src/api.py
-2. Run streamlit.py
+3. Run streamlit.py
     <br /> &emsp; $ streamlit run /src/streamlit.py
-3. Open http://localhost:8501 in browser
-4. Enter variables, then click predict
+4. Open http://localhost:8501 in browser
+5. Enter variables, then click predict
