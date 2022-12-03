@@ -14,3 +14,5 @@
     <br /> &emsp; $ python /src/api.py
 2. Run streamlit.py
     <br /> &emsp; $ streamlit run /src/streamlit.py
+3. Open http://localhost:8501 in browser
+4. Enter variables, then click predict
