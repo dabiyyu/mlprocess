@@ -1,0 +1,63 @@
+# Path related
+dataset_path: /Users/dabiyyu/Downloads/mlprocess/data/raw/CCPP/Folds5x2_pp.xlsx
+dataset_cleaned_path: /Users/dabiyyu/Downloads/mlprocess/data/processed/raw_dataset.pkl
+train_set_path:
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/X_train.pkl
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/y_train.pkl
+valid_set_path:
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/X_valid.pkl
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/y_valid.pkl
+test_set_path:
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/X_test.pkl
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/y_test.pkl
+train_feng_set_path:
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/X_train_feng.pkl
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/y_train_feng.pkl
+valid_feng_set_path:
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/X_valid_feng.pkl
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/y_valid_feng.pkl
+test_feng_set_path:
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/X_test_feng.pkl
+- /Users/dabiyyu/Downloads/mlprocess/data/processed/y_test_feng.pkl
+production_model_path: /Users/dabiyyu/Downloads/mlprocess/models/production_model.pkl
+training_log_path: /Users/dabiyyu/Downloads/mlprocess/log/training_log.json
+
+# Debug related
+print_debug: true
+
+# Columns by data type related
+float_columns:
+- AT
+- V
+- AP
+- RH
+- PE
+
+# Predictors and label related
+label: PE
+predictors:
+- AT
+- V
+- AP
+- RH
+
+# Range of data related
+range_at:
+- 0
+- 40
+range_v:
+- 25
+- 85
+range_ap:
+- 950
+- 1050
+range_rh:
+- 25
+- 125
+range_pe:
+- 420
+- 500
+
+# Splitting related
+test_size: 0.3
+valid_size: 0.5
