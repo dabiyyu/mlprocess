@@ -8,3 +8,9 @@
 
 ## Modeling Flowchart
 ![Alt text](/assets/modeling.png "Modeling")
+
+## Running on Local Machine
+1. Run api.py
+    $ python /src/api.py
+2. Run streamlit.py
+    $ streamlit run /src/streamlit.py
