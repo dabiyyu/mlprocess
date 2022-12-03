@@ -11,6 +11,6 @@
 
 ## Running on Local Machine
 1. Run api.py
-    &emsp; <br /> $ python /src/api.py
+    <br /> &emsp; $ python /src/api.py
 2. Run streamlit.py
-    &emsp; <br /> $ streamlit run /src/streamlit.py
+    <br /> &emsp; $ streamlit run /src/streamlit.py
