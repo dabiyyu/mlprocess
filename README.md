@@ -1,5 +1,16 @@
 # Full Load Electrical Power Output Prediction
 
+The reliability and sustainability of gas turbines in power plants are very dependent on the power output generated. By predicting the resulting power output, it is expected to be able to increase the efficiency and profit of the power plant.
+
+## Predictor
+- ambient temperature (AT)
+- atmospheric pressure (AP)
+- relative humidity (RH)
+vacuum (exhaust steam pressure, V)
+
+## Target
+Full Load Electrical Power Output (PE)
+
 ## Data Preparation Flowchart
 ![Alt text](/assets/data_prep.png "Data Preparation")
 
