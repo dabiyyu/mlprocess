@@ -15,28 +15,28 @@ st.subheader("Enter variabel below")
 with st.form(key = "power_plant_data_form"):
     # Create box for number input
     at = st.number_input(
-        label = "1.\tEnter ambient temperature value:",
+        label = "Enter ambient temperature value:",
         min_value = 0,
         max_value = 40,
         help = "Value range from 0 to 40"
     )
 
     v = st.number_input(
-        label = "2.\tEnter exhaust steam pressure value:",
+        label = "Enter exhaust steam pressure value:",
         min_value = 25,
         max_value = 85,
         help = "Value range from 25 to 85"
     )
     
     ap = st.number_input(
-        label = "3.\tEnter atmospheric pressure value:",
+        label = "Enter atmospheric pressure value:",
         min_value = 950,
         max_value = 1050,
         help = "Value range from 950 to 1050"
     )
 
     rh = st.number_input(
-        label = "4.\tEnter relative humidity value:",
+        label = "Enter relative humidity value:",
         min_value = 25,
         max_value = 125,
         help = "Value range from 25 to 125"
