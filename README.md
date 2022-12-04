@@ -35,5 +35,5 @@ integer or float
 ### output format
 float
 
-## References
+## Reference
 Pınar Tüfekci, Prediction of full load electrical power output of a base load operated combined cycle power plant using machine learning methods, International Journal of Electrical Power & Energy Systems, Volume 60, September 2014, Pages 126-140, ISSN 0142-0615, https://www.sciencedirect.com/science/article/abs/pii/S0142061514000908?via%3Dihub
